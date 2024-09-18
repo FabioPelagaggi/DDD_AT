@@ -18,7 +18,7 @@ public class PedidoComsumer {
     private final ObjectMapper objectMapper = new ObjectMapper();
     private final PedidoService pedidoService;
 
-    @RabbitListener(queues = { "fila.pedido" })
+    @RabbitListener(queues = { "fila.envio" })
     public void getMessange(@Payload Message<String> message) {
 
         String messageBody = message.getPayload();
