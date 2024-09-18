@@ -1,0 +1,6 @@
+server:
+  port: 6660
+
+spring:
+  application:
+    name: pedido

@@ -18,6 +18,7 @@
 	<modules>
 		<module>almoxarifado</module>
 		<module>transporte</module>
+		<module>pedido</module>
 	</modules>
 
 	<name>Petfriends</name>
