@@ -1,0 +1,6 @@
+server:
+  port: 6066
+
+spring:
+  application:
+    name: transporte
