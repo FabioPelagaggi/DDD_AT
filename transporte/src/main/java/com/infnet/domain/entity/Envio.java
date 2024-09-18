@@ -1,5 +1,8 @@
 package com.infnet.domain.entity;
 
+import com.infnet.domain.valueobject.Endereco;
+
+import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -22,4 +25,6 @@ public class Envio {
     private String status;
     private double custoEnvio;
 
+    @Embedded
+    private Endereco endereco;
 }
